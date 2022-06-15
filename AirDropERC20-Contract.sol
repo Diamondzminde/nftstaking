@@ -10,7 +10,7 @@ MATERIAL. ONLY USE IT IF YOU AGREE TO THE
 TERMS SPECIFIED ABOVE.
 */
 
-import "https://github.com/net2devcrypto/Simple-ERC20-AirdropServer/DOTNPlus.sol";
+import "https://github.com/Diamondzminde/nftstaking/blob/main/DOTNPlus.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
 pragma solidity ^0.8.4;
