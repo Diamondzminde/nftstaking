@@ -4,7 +4,7 @@ pragma solidity 0.8.4;
 
 
 import "https://github.com/Diamondzminde/nftstaking/blob/main/FN2022kRewards.sol"
-import "https://github.com/Diamondzminde/nftstaking/blob/main/Collection.sol"
+import "https://github.com/Diamondzminde/nftstaking/blob/main/Collections.sol"
 
 contract NFTStaking is Ownable, IERC721Receiver {
 
