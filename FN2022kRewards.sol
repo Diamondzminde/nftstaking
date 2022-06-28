@@ -3,7 +3,7 @@
 pragma solidity 0.8.4;
 
 
-import "https://github.com/Diamondzminde/nftstaking/blob/main/2022kRewards.sol"
+import "https://github.com/Diamondzminde/nftstaking/blob/main/FN2022kRewards.sol"
 import "https://github.com/Diamondzminde/nftstaking/blob/main/Collection.sol"
 
 contract NFTStaking is Ownable, IERC721Receiver {
@@ -23,12 +23,12 @@ contract NFTStaking is Ownable, IERC721Receiver {
 
   // reference to the Block NFT contract
   Collection nft;
-  2022kRewards token;
+  fn2022kRewards token;
 
   // maps tokenId to stake
   mapping(uint256 => Stake) public vault; 
 
-   constructor(Collection _nft, 2022kRewards _token) { 
+   constructor(Collection _nft, fn2022kRewards _token) { 
     nft = _nft;
     token = _token;
   }
